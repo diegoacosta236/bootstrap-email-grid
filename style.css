@@ -1,0 +1,85 @@
+body {
+  height: 100vh;
+}
+
+/* Column 1, acts as the menu of the e-mail UI */
+.column-one {
+  background-color: rgb(200, 200, 200);
+}
+
+  /* Buttons */
+  .btn-group-vertical{
+    display: flex;
+    justify-self: flex-end;
+    width: calc(75% + 10px);
+
+  }
+
+  /* Icon List */
+  .bi-list {
+    position: absolute; 
+    top: 10px;
+  }
+
+  .bi-plus-lg {
+    position: absolute; 
+    top: 60px;
+  }
+
+  .bi-person {
+    position: absolute; 
+    top: 110px;
+  }
+
+  .bi-folder2 {
+    position: absolute; 
+    top: 160px;
+  }
+
+  .bi-gear {
+    position: absolute; 
+    bottom: 10px;
+  }
+
+
+
+.navbar {  /* Fills the search bar with gray, sets the height and margin */
+  background-color: rgb(200, 200, 200);
+  height: 70px;
+  border-radius: 5px;
+  margin: 20px;
+  width: 90%
+}
+
+.navbar-text { /* Makes it so the text is at a set distance from the search icon */
+  position: absolute;
+  left: 40px;
+}
+
+.list-group { /* Centers the e-mail group list*/
+  display: flex;
+  align-items: center;
+}
+
+.list-group-item { /* Fills the e-mails with a gray color and sets their text up to be centered and at the top */
+  background-color: rgb(200, 200, 200);
+  height: 70px;
+  text-align: start;
+  margin: 10px;
+  width: 85%;
+} 
+
+
+
+
+/* Column Three */
+
+.column-three {
+  background: linear-gradient(
+    180deg,
+    rgb(100, 100, 100),
+    rgb(180, 180, 180),
+    rgb(200, 200, 200),
+    rgb(255, 255, 255)
+  )
+}
