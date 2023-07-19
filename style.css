@@ -4,7 +4,13 @@ body {
 
 /* Column 1, acts as the menu of the e-mail UI */
 .column-one {
-  background-color: rgb(200, 200, 200);
+  background: linear-gradient(
+    180deg,
+    rgb(100, 100, 100),
+    rgb(180, 180, 180),
+    rgb(200, 200, 200),
+    rgb(255, 255, 255)
+  )
 }
 
   /* Buttons */
@@ -18,22 +24,22 @@ body {
   /* Icon List */
   .bi-list {
     position: absolute; 
-    top: 10px;
+    top: 17px;
   }
 
   .bi-plus-lg {
     position: absolute; 
-    top: 60px;
+    top: 90px;
   }
 
   .bi-person {
     position: absolute; 
-    top: 110px;
+    top: 160px;
   }
 
   .bi-folder2 {
     position: absolute; 
-    top: 160px;
+    top: 235px;
   }
 
   .bi-gear {
